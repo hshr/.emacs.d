@@ -6,7 +6,6 @@
 ;; Mozc settings
 (use-package mozc
   :config
-  (set-language-environment "Japanese")
   (setq default-input-method "japanese-mozc"))
 
 (use-package mozc-popup
